@@ -124,16 +124,202 @@ nav li a:hover {
 
 /* Fin te ayudamos*/
 
-.test {
+/* Inicio tu negocio */
 
-    width: 1293px;
-    height: 578px;
+.container_rectangulo {
     left: 0px;
     top: 848px;
     background: #ECF7FF;
-    border-radius: 0px 400px 0px 0px;
-    margin-right: 20%;
+    border-radius: 0px 350px 0px 0px;
+    margin-right: 5%;
 }
+
+
+.container_titulo_negocio {
+    display: block;
+    padding-top: 5%;
+    font-size: 3.5vw;
+}
+
+.container_titulo_negocio h1 {
+
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 106.3%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+    margin-bottom: 0;
+
+}
+
+.container_titulo_negocio p {
+
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 106.3%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+    margin-top: 0;
+
+}
+
+/*Card*/
+
+/* Estilos para el contenedor de las cards */
+.card-deck {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+/* Estilos para de la card */
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Estilos para la imagen de la card */
+.card img {
+    object-fit: cover;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    ;
+}
+
+/* Estilos para el contenido de la card */
+.card-content {
+    padding: 20px;
+    display: block;
+}
+
+/* Estilos para el título de la card */
+.card-title {
+    font-family: 'Hind Vadodara';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 137.3%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: #331B3B;
+}
+
+/* Estilos para el texto de la card */
+.card-text {
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 145.3%;
+    /* or 22px */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(51, 27, 59, 0.66);
+}
+
+/* Fin de tu negocio */
+
+/* Inicio acerca de nostros*/
+
+.ta_titulo2 {
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-size: 4.5vw;
+    letter-spacing: -0.01em;
+    line-height: 99.8%;
+    color: #331B3B;
+    margin-bottom: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 5%;
+}
+
+/* Fin acerca de nosotros*/
+
+
+/* Inicio trabajos recientes*/
+
+.container_rectangulo_2 {
+    background: rgba(255, 222, 212, 0.3);
+    border-radius: 400px 0px 0px 0px;
+    padding-left: 5%;
+
+}
+
+.container_titulo_tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tr_titulo p {
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 106.3%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+    font-size: 2.5vw;
+    text-align: left;
+}
+
+.card-deck-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Estilos para la imagen de la card */
+.card-img img {
+    width: 85%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    ;
+}
+
+.card-content-img {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.tr_btn {
+    box-sizing: border-box;
+    border: 1px solid #343434;
+    border-radius: 100px;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 146.3%;
+    color: #331B3B;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+/* Fin trabaja con notros*/
 
 
 
@@ -171,4 +357,26 @@ nav li a:hover {
         width: 100%;
         height: 100%;
     }
+
+    .container_titulo_negocio {
+        font-size: 7.5vw;
+    }
+
+    .container_rectangulo {
+        border-radius: 0px 200px 0px 0px;
+        margin-right: 2%;
+    }
+
+    .ta_titulo2 {
+        padding-top: 0;
+    }
+
+    .container_titulo_tr {
+        display: inline-block;
+    }
+
+    .tr_titulo p {
+        font-size: 8.5vw;
+    }
+
 }
