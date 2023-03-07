@@ -137,8 +137,8 @@ nav li a:hover {
 
 .container_titulo_negocio {
     display: block;
-    padding-top: 5%;
-    font-size: 3.5vw;
+    padding-top: 2.5%;
+    font-size: 2.5vw;
 }
 
 .container_titulo_negocio h1 {
@@ -321,7 +321,108 @@ nav li a:hover {
 
 /* Fin trabaja con notros*/
 
+/* Inicio testimonios*/
 
+.container_ts {
+    display: block;
+    padding-top: 5%;
+    font-size: 3.5vw;
+}
+
+.centrar_cards {
+    justify-content: center !important;
+}
+
+/* Fin testimonios*/
+
+/* Inicio contactanos*/
+
+.container_contactanos {
+    background: #000000;
+    border-radius: 0px 158px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container_dream_a {
+    display: inline-block;
+    margin: 10%
+}
+
+.container_dream_a h1 {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.container_dream_a p {
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.3%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.container_form {
+
+    margin-top: 15%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.container_form form,
+input,
+textarea {
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+}
+
+#btn_enviar {
+    width: 35%;
+    background-color: #FE9A22;
+    color: #ECF7FF;
+}
+
+.contactos {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.contactos label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+}
+.contactos img {
+    padding: 5%;
+}
+
+/* Fin contactanos*/
 
 /* Media*/
 
@@ -377,6 +478,17 @@ nav li a:hover {
 
     .tr_titulo p {
         font-size: 8.5vw;
+    }
+
+    .container_contactanos{
+        display: block;
+    }
+
+    .container_form {
+        margin: 0;
+    }
+    .container_form form{
+        width: 100%;
     }
 
 }
